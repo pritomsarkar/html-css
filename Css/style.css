@@ -1,0 +1,32 @@
+h2 {
+  color: blue;
+  font-size: 50px;
+  font-family: "verdana";
+  border: 2px solid blueviolet;
+  padding: 30px;
+  margin: 1rem;
+}
+
+a:link {
+  color: blueviolet;
+  background-color: burlywood;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(107, 212, 58);
+  background-color: rgb(161, 28, 61);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(187, 255, 0);
+  background-color: rgb(28, 30, 161);
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}

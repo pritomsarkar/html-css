@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images</title>
+    <style>
+      body {
+        background-image: url("../images/Scenery.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="../images/Default.jpg"
+      alt="didn't found"
+      style="float: right; width: 300px; height: 300px"
+    />
+    <img src="../images/workplace.jpg" alt="workplace" usemap="#workmap" />
+
+    <map name="workmap">
+      <area
+        shape="rect"
+        coords="34,44,270,350"
+        href="../images/mac.jpg"
+        alt="computer"
+      />
+      <area
+        shape="rect"
+        coords="290,172,333,250"
+        href="../images/cellphone.jpg"
+        alt="phone"
+      />
+      <area
+        shape="circle"
+        coords="337,300,44"
+        href="../images/coffeehouse2.jpg"
+        alt="coffee"
+      />
+    </map>
+  </body>
+</html>
