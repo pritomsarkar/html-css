@@ -1,0 +1,13 @@
+#tab1 {
+  border: 1px solid black;
+  text-align: center;
+  border-color: rgb(203, 233, 121);
+  border-collapse: collapse;
+  background-color: burlywood;
+  padding: 15px;
+}
+
+#tab2 {
+  border: 1px solid rgb(187, 91, 91);
+  background-color: chartreuse;
+}
