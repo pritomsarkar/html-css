@@ -1,0 +1,16 @@
+.city {
+  background-color: rgb(82, 183, 187);
+  color: #e3fa18;
+  border: 2px solid rgb(199, 247, 112);
+  margin: 20px;
+  padding: 30px;
+}
+
+.next {
+  text-align: center;
+}
+
+.note {
+  font-size: 120%;
+  color: red;
+}

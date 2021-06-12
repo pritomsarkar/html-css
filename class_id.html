@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>classVsId.</title>
+  </head>
+  <style>
+    .city {
+      background-color: #af35a6;
+    }
+    .city h1 {
+      background-color: #72936a;
+      text-align: center;
+    }
+    .city p {
+      padding-left: 100px;
+      padding-bottom: 20px;
+    }
+    #myId1 {
+      text-align: center;
+      color: indianred;
+    }
+    #myId2 {
+      margin: 10px;
+      margin-left: 100px;
+      margin-right: 100px;
+      text-align: center;
+      background-color: rgb(75, 75, 218);
+    }
+  </style>
+  <body>
+    <a href="#myId1" onclick="myFunction()">pritom</a>
+    <a href="#myId2">sarkar</a>
+    <div class="city">
+      <h1>Paris</h1>
+      <p>Capital of France</p>
+    </div>
+    <div class="city">
+      <h1>Delhi</h1>
+      <p>Capital of India</p>
+    </div>
+    <div class="city">
+      <h1>Chicago</h1>
+      <p>Capital of America</p>
+    </div>
+    <pre> <!-- just to extend the page and show the effect of bookmark-->
+        A
+        B 
+        C 
+        D 
+        E 
+        F 
+        G 
+        H 
+        I
+    </pre>
+    <h1 id="myId1">pritom</h1>
+    <h1 id="myId2">sarkar</h1>
+    <script>
+      function myFunction() {
+        document.getElementById("myId1").innerHTML = "Mohit";
+      }
+    </script>
+  </body>
+</html>

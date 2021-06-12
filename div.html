@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Div</title>
+    <link rel="stylesheet" href="./div.css" />
+  </head>
+  <body>
+    <div style="background-color: #111; color: #fff; padding: 20px">
+      <h1>Hi There..</h1>
+      <p>
+        London is the capital city of England. It is the most populous city in
+        the United Kingdom, with a metropolitan area of over 13 million
+        inhabitants
+      </p>
+    </div>
+    <p>
+      My mother has
+      <span style="color: blue; font-weight: bold">blue</span> eyes and my
+      father has
+      <span style="color: darkolivegreen; font-weight: bold">dark green</span>
+      eyes.
+    </p>
+    <button onclick="hideCityName()">Hide City Name</button>
+    <div class="city">
+      <h2 class="name">London</h2>
+      <p>This is in Europe</p>
+    </div>
+    <div class="city">
+      <h2 class="name">Pasir</h2>
+      <p>This is in Asia</p>
+    </div>
+    <div class="city next">
+      <h2 class="name">NewWork</h2>
+      <p>This is in US</p>
+    </div>
+    <h1>My <span class="note">Important</span> Heading</h1>
+    <p>This is some <span class="note">important</span> text.</p>
+    <script>
+      function hideCityName() {
+        let x = document.getElementsByClassName("name");
+        for (let name of x) {
+          name.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>
