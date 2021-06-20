@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>responsive</title>
+  </head>
+  <body>
+    <img src="./images/cellphone.jpg" alt="Not Abailable" style="width: 100%" />
+    <img
+      src="./images/cellphone.jpg"
+      alt="Not Abailable"
+      style="max-width: 100%; width: auto"
+    />
+    <picture>
+      <source srcset="./images/cellphone.jpg" media="(max-width: 600px)" />
+      <source srcset="./images/coffeehouse2.jpg" media="(max-width: 1500px)" />
+    </picture>
+    <h1 style="font-size: 10vw">
+      Resize the browser window to see how the text size scales.
+    </h1>
+    <h1>this is a media/ query</h1>
+    <div class="left">
+      <p>Left panel</p>
+    </div>
+    <div class="main">
+      <p>Main Content</p>
+    </div>
+    <div class="right">
+      <p>Right panel</p>
+    </div>
+  </body>
+</html>
