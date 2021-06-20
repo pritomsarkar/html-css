@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Mate+SC&display=swap"
+      rel="stylesheet"
+    />
+    <title>JavaScript..</title>
+    <style>
+      #myId {
+        background-color: rgb(159, 218, 144);
+        font-family: "Baloo Tammudu 2", cursive;
+        color: cyan;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="myId">Pritom</h1>
+    <button onclick="changeBackgroundColor()">change background-color</button>
+    <button onclick="changeColor()">change color</button>
+    <button onclick="changeFont()">change font</button>
+    <button onclick="changeName()">See Title</button>
+    <script>
+      function changeName() {
+        document.getElementById("myId").innerHTML = "Sarkar";
+      }
+      function changeBackgroundColor() {
+        document.getElementById("myId").style.backgroundColor = "red";
+      }
+      function changeColor() {
+        document.getElementById("myId").style.color = "yellow";
+      }
+      function changeFont() {
+        document.getElementById("myId").style.fontFamily = "cursive";
+      }
+    </script>
+  </body>
+</html>
